@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var input = prompt('nhap ten lop');
+	var pattern = /^([C|A|P]{1,1})([0-9]{4,})([G-M]{1,1})$/;
+	var result = pattern.test(input);
+	document.write(result);
+</script>
+</body>
+</html>
